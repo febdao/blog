@@ -45,7 +45,10 @@ export default {
   build: {
   },
 
+  buildDir: 'dist',
+  target: 'static',
+  
   generate: {
-    dir: 'docs'
+    fallback: true
   }
 }
