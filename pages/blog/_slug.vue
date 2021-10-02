@@ -1,12 +1,17 @@
 <template>
   <article class="pose">
-    <nuxt-content :document="doc" />
-    <h4 v-if="prev">
-      <nuxt-link :to="prev.slug">Previous post</nuxt-link>
-    </h4>
-    <h4 v-if="next">
-      <nuxt-link :to="next.slug">Next post</nuxt-link>
-    </h4>
+    <h1 class="text-5xl mb-10">{{ doc.title }}</h1>
+    <nuxt-content class="my-10" :document="doc" />
+    <div class="mt-16 flex leading-6 font-medium">
+      <nuxt-link v-if="prev" :to="prev.slug" class="flex mr-8 transition-colors duration-200 hover:text-gray-200">
+        <span aria-hidden="true" class="mr-2">←</span>
+        Previous post
+      </nuxt-link>
+      <nuxt-link v-if="next" :to="next.slug" class="flex text-right ml-auto transition-colors duration-200 hover:text-gray-200">
+        Next post
+        <span aria-hidden="true" class="ml-2">→</span>
+      </nuxt-link>
+    </div>
   </article>
 </template>
 

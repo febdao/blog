@@ -1,7 +1,8 @@
 ---
 title: My third blog post
 desc: Welcome to my third blog using the content module.
-img: batman.png
+img: https://picsum.photos/400/800
+tags: front-end, css
 ---
 # My first blog post
 

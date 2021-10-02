@@ -13,7 +13,6 @@
 export default {
   props: ['docs']
 }
-
 </script>
 
 <style>

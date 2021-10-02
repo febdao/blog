@@ -9,8 +9,8 @@
 export default {
   async asyncData({ $content, params }) {
     const docs = await $content('blog', params.slug)
-      .only(['title', 'desc', 'img'])
-      .sortBy('createdAt', 'asc')
+      .only(['slug', 'title', 'desc', 'img', 'tags', 'path'])
+      .sortBy('createdAt', 'desc')
       .fetch();
     return {
       docs
