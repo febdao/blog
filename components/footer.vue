@@ -5,8 +5,9 @@
     bg-gray-900
     text-center
     p-5
-    mt-12
-    hidden sm:block">
+    mt-6
+    lg:mt-12
+    block">
     <div class="w-full flex flex-col justify-center">
       <div>
         <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa inline-block fa-code fa-w-18">
