@@ -1,5 +1,5 @@
 <template>
-  <header class="header flex justify-between">
+  <header class="header flex justify-between items-center">
     <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
     <nuxt-link class="text-2xl" to="/">
       <lord-icon
@@ -10,10 +10,26 @@
       </lord-icon>
       imFeb
     </nuxt-link>
-    <!-- <nav>
-      <nuxt-link class="px-2" to="/">Home</nuxt-link>
-      <nuxt-link class="px-2" to="/blog">blog</nuxt-link>
-    </nav> -->
+    <nav>
+      <nuxt-link class="px-2" to="/">
+        <lord-icon
+          src="https://cdn.lordicon.com/gmzxduhd.json"
+          trigger="loop-on-hover"
+          colors="primary:#fbbf24,secondary:#ffffff"
+          style="width:40px;height:40px">
+        </lord-icon>
+        Home
+      </nuxt-link>
+      <nuxt-link class="px-2" to="/blog">
+        <lord-icon
+          src="https://cdn.lordicon.com/puvaffet.json"
+          trigger="loop-on-hover"
+          colors="primary:#fbbf24,secondary:#ffffff"
+          style="width:40px;height:40px">
+        </lord-icon>
+        Blog
+      </nuxt-link>
+    </nav>
   </header>
 </template>
 
@@ -24,5 +40,7 @@ export default {
 </script>
 
 <style>
-
+  .nuxt-link-exact-active {
+    @apply text-gray-100;
+  }
 </style>

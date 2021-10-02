@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-page">
-    <h1 class="text-5xl">My blogs</h1>
+  <div class="blog-page max-w-screen-lg mx-auto">
+    <h1 class="page-title">My blogs</h1>
     <article-list :docs="docs" />
   </div>
 </template>

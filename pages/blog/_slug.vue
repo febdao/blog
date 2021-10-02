@@ -1,6 +1,6 @@
 <template>
   <article class="pose max-w-screen-lg mx-auto">
-    <h1 class="text-5xl mb-5 font-extrabold">{{ doc.title }}</h1>
+    <h1 class="page-title font-extrabold">{{ doc.title }}</h1>
     <p class="blog__desc text-xl mb-10">{{ doc.desc }}</p>
     <div class="responsive-image-container overflow-hidden inline-block w-full max-h-screen-1/3 shadow-md rounded-lg mb-4">
       <img alt="Bug, Error, Defect, Failure Explained" class="object-cover w-full h-auto responsive-image-real" style="opacity: 1;" :src="doc.img">
