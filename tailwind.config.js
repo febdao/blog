@@ -8,6 +8,7 @@ module.exports = {
   variants: {
     extend: {
       scale: ['group-hover'],
+      translate: ['group-hover'],
       transition: ['group-hover'],
       display: ['group-hover'],
       opacity: ['disabled'],
