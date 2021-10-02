@@ -1,11 +1,10 @@
 <template>
-  <div class="imfeb-blog p-4 xl:p-8 bg-gray-800 transition-colors duration-300 ease-in-out min-h-screen">
-    <div class="container mx-auto">
-      <Header />
-      <div class="py-16">
-        <Nuxt />
-      </div>
+  <div class="imfeb-blog bg-gray-800 transition-colors duration-300 ease-in-out min-h-screen">
+    <Header />
+    <div class="py-4 lg:py-8">
+      <Nuxt />
     </div>
+    <Footer />
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <header class="header flex justify-between items-center">
+  <header class="header flex justify-between items-center p-4 lg:p-8">
     <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
     <nuxt-link class="text-2xl" to="/">
       <lord-icon
