@@ -1,7 +1,7 @@
 <template>
   <div class="imfeb-blog bg-gray-800 transition-colors duration-300 ease-in-out min-h-screen">
     <Header />
-    <div class="py-4 lg:py-8">
+    <div class="p-4 md:p-6 lg:p-8">
       <Nuxt />
     </div>
     <Footer />
