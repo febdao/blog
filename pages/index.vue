@@ -2,7 +2,7 @@
   <div class="home-page">
     <h1 class="text-4xl mb-10 text-yellow-400">Hi, I'm <span class="text-gray-100">Feb</span>
     <br>
-    I <span class="text-gray-100">love</span>
+    Who <span class="text-gray-100">loves</span>
     <lord-icon
       src="https://cdn.lordicon.com/anihkfxp.json"
       trigger="loop"
