@@ -10,10 +10,10 @@
       </lord-icon>
       imFeb
     </nuxt-link>
-    <nav>
+    <!-- <nav>
       <nuxt-link class="px-2" to="/">Home</nuxt-link>
       <nuxt-link class="px-2" to="/blog">blog</nuxt-link>
-    </nav>
+    </nav> -->
   </header>
 </template>
 

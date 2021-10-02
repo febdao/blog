@@ -15,7 +15,7 @@
             group-hover:-translate-y-4
           ">
           <div class="h-full bg-cover bg-center bg-no-repeat responsive-image-placeholder"
-          :style="'background-image:url(' + doc.img + '?random=' + doc.slug + ')'">
+          :style="'background-image:url(' + doc.img + ')'">
           </div>
         </div>
         <div class="article-display transform transition-transform duration-300 z-10 w-11/12 bg-gray-900 -mt-10 shadow-lg p-5 rounded-lg overflow-hidden text-gray-200 group-hover:scale-105">

@@ -1,8 +1,8 @@
 <template>
   <div class="home-page">
-    <h1 class="text-4xl mb-10 text-yellow-400">Hi, I'm Feb
+    <h1 class="text-4xl mb-10 text-yellow-400">Hi, I'm <span class="text-gray-100">Feb</span>
     <br>
-    I <span class="text-pink-500">love</span>
+    I <span class="text-gray-100">love</span>
     <lord-icon
       src="https://cdn.lordicon.com/anihkfxp.json"
       trigger="loop"

@@ -1,6 +1,10 @@
 <template>
-  <article class="pose">
-    <h1 class="text-5xl mb-10">{{ doc.title }}</h1>
+  <article class="pose max-w-screen-lg mx-auto">
+    <h1 class="text-5xl mb-5 font-extrabold">{{ doc.title }}</h1>
+    <p class="blog__desc text-xl mb-10">{{ doc.desc }}</p>
+    <div class="responsive-image-container overflow-hidden inline-block w-full max-h-screen-1/3 shadow-md rounded-lg mb-4">
+      <img alt="Bug, Error, Defect, Failure Explained" class="object-cover w-full h-auto responsive-image-real" style="opacity: 1;" :src="doc.img">
+    </div>
     <nuxt-content class="my-10 prose prose-indigo lg:prose-xl" :document="doc" />
     <div class="mt-16 flex leading-6 font-medium">
       <nuxt-link v-if="prev" :to="prev.slug" class="flex mr-8 transition-colors duration-200 hover:text-gray-200">
