@@ -1,6 +1,6 @@
 <template>
   <div class="artile-list my-10">
-    <section class="grid sm:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-8">
+    <section class="grid sm:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-8 mb-8">
       <article class="article" v-for="doc of docs" :key="doc.slug">
         <Article :doc="doc" />
       </article>

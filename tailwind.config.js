@@ -6,7 +6,12 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ['group-hover'],
+      transition: ['group-hover'],
+      display: ['group-hover'],
+      opacity: ['disabled'],
+    }
   },
   plugins: [],
 }
