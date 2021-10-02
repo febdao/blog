@@ -1,7 +1,7 @@
 ---
 title: Create a Style Guide with Pattern Lab.
 desc: Following the series on Web Style Guide, today I will introduce to you a very useful tool to create Style Guide - Pattern Lab.
-img: https://picsum.photos/800/250?random=2
+img: https://picsum.photos/800/250?random=3
 tags: front-end, css, styleguide, pattern-lab
 ---
 
