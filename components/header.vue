@@ -18,7 +18,7 @@
           colors="primary:#fbbf24,secondary:#ffffff"
           style="width:40px;height:40px">
         </lord-icon>
-        Home
+        <span class="hidden sm:inline-block">Home</span>
       </nuxt-link>
       <nuxt-link class="px-2" to="/blog">
         <lord-icon
@@ -27,7 +27,7 @@
           colors="primary:#fbbf24,secondary:#ffffff"
           style="width:40px;height:40px">
         </lord-icon>
-        Blog
+        <span class="hidden sm:inline-block">Blog</span>
       </nuxt-link>
     </nav>
   </header>

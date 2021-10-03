@@ -5,21 +5,24 @@
         <Article :doc="doc" />
       </article>
     </section>
-    <nuxt-link class="flex text-xl justify-end items-center ml-auto transition-colors duration-200 hover:text-gray-100" to="/blog">
-      <span>View all</span>
-      <lord-icon
-        src="https://cdn.lordicon.com/fyhanzjw.json"
-        trigger="loop-on-hover"
-        colors="primary:#ffffff,secondary:#fbbf24"
-        style="width:60px;height:60px">
-      </lord-icon>
-    </nuxt-link>
+    <div v-if="total" class="constainer mx-auto my-5 max-w-5xl">
+      <Pagination v-if="total > 6" :total="total" />
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['docs']
+  props: {
+    total: {
+      type: Number,
+      default: 0,
+    },
+    docs: {
+      type: Array,
+      default: Array,
+    }
+  },
 }
 </script>
 
