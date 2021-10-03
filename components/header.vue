@@ -8,7 +8,9 @@
         colors="primary:#ffffff,secondary:#fbbf24"
         style="width:80px;height:80px">
       </lord-icon>
-      imFeb
+      <span class="relative">Feb
+        <span class="absolute text-yellow-400 text-xs top-px whitespace-nowrap">is.me</span>
+      </span>
     </nuxt-link>
     <nav>
       <nuxt-link class="px-2" to="/">

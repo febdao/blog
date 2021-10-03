@@ -5,7 +5,7 @@
 */
 export default {
   siteUrl: 'https://febis.me',
-  siteName: 'I`m Feb',
+  siteName: 'Feb is me',
   author: 'Feb Dao',
   githubURL: 'https://github.com/febdao',
   siteTitle: 'I\'m Feb, I love web development and photography',
