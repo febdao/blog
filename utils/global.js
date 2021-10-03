@@ -9,6 +9,6 @@ export default {
   author: 'Feb Dao',
   githubURL: 'https://github.com/febdao',
   siteTitle: 'I\'m Feb, I love web development and photography',
-  siteDesc: 'Welcome to my blog. It is about a web front-end developer base on Caberra Australia',
+  siteDesc: 'Welcome to my blog, where I will share my experiences and knowledge about Web front-end development.',
   mainImage: 'https://imfeb.me/images/feb.jpg',
 };
