@@ -28,7 +28,7 @@
         style="width:60px;height:60px">
       </lord-icon>
     </h2>
-    <article-list :docs="docs" />
+    <ArticleList :docs="docs" :total="docs.length" />
     <nuxt-link class="flex text-xl justify-end items-center ml-auto transition-colors duration-200 hover:text-gray-100" to="/blog">
       <span>View all</span>
       <lord-icon
@@ -49,8 +49,6 @@ export default {
       .sortBy('createdAt', 'desc')
       .limit(3)
       .fetch();
-    console.log('docs');
-    console.log(docs);
     return {
       docs
     }
