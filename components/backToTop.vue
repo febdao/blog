@@ -1,7 +1,7 @@
 <template>
   <transition name="back-to-top-fade">
     <div 
-      class="vue-back-to-top fixed bottom-10 right-2 md:right-10"
+      class="vue-back-to-top z-20 fixed bottom-10 right-2 md:right-10"
       v-show="visible" 
       @click="backToTop">
       <span class="flex flex-col text-center justify-center cursor-pointer">
