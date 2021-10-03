@@ -8,7 +8,7 @@ export default {
   siteName: 'I`m Feb',
   author: 'Feb Dao',
   githubURL: 'https://github.com/febdao',
-  siteTitle: 'I\'m Feb, This is my personal Blog',
-  siteDesc: 'Welcome to my blog. I\'m Feb, I\'m a web front-end developer base on Caberra Australia',
+  siteTitle: 'I\'m Feb, I love web development and photography',
+  siteDesc: 'Welcome to my blog. It is about a web front-end developer base on Caberra Australia',
   mainImage: '/images/feb.jpg',
 };

@@ -1,8 +1,8 @@
 <template>
   <div class="home-page max-w-screen-lg mx-auto">
-    <h1 class="page-title">Hi, I'm <span class="text-gray-100">Feb</span>
+    <h1 class="page-title">Hello, I'm <span class="text-gray-100">Feb</span>
     <br>
-    Who <span class="text-gray-100">loves</span>
+    I <span class="text-gray-100">love</span>
     <lord-icon
       src="https://cdn.lordicon.com/anihkfxp.json"
       trigger="loop"
