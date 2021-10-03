@@ -30,7 +30,7 @@ export default {
         type: 'article',
         title: this.doc.title,
         description: this.doc.description,
-        url: `${this.$config.baseUrl}/blog/${this.$route.params.slug}`,
+        url: `${global.siteUrl}/blog/${this.$route.params.slug}`,
         mainImage: this.doc.image,
       };
       return getSiteMeta(metaData);
@@ -57,7 +57,7 @@ export default {
         {
           hid: 'canonical',
           rel: 'canonical',
-          href: `${this.$config.baseUrl}/blog/${this.$route.params.slug}`,
+          href: `${global.siteUrl}/blog/${this.$route.params.slug}`,
         },
       ],
     };

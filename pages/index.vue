@@ -42,7 +42,37 @@
 </template>
 
 <script>
+import global from '@/utils/global';
+import getSiteMeta from '@/utils/getSiteMeta';
+
 export default {
+  computed: {
+    meta() {
+      const metaData = {
+        type: 'article',
+        title: global.title,
+        description: global.description,
+        url: global.siteUrl,
+        mainImage: global.image,
+      };
+      return getSiteMeta(metaData);
+    },
+  },
+  head() {
+    return {
+      title: global.title,
+      meta: [
+        ...this.meta,
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: global.siteUrl,
+        },
+      ],
+    };
+  },
   async asyncData({ $content, params }) {
     const docs = await $content('blog', params.slug)
       .only(['slug', 'title', 'description', 'image', 'tags', 'path'])
