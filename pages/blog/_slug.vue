@@ -1,5 +1,9 @@
 <template>
   <article class="pose max-w-screen-lg mx-auto">
+    <nuxt-link class="mb-4 flex text-xl items-center ml-auto transition-colors duration-200 hover:text-gray-100" to="/blog">
+      <span class="mr-2">←</span>
+      <span>Back</span>
+    </nuxt-link>
     <h1 class="page-title font-extrabold">{{ doc.title }}</h1>
     <div class="
       text-light-secondary

@@ -22,13 +22,14 @@
           <div class="tags flex flex-wrap">
             <div v-for="tag of doc.tags" :key="tag" class="
               bg-gray-700
-              text-sm
+              text-xs
               font-medium
               mr-2
               mb-1
               rounded-full
               py-0
               px-2
+              capitalize
             ">
               {{ tag }}
             </div>

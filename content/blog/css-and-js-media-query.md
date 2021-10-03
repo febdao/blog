@@ -2,7 +2,7 @@
 title: CSS and Javascript media queries
 description: The responsive display is an important thing in web design, it can't be done without using media queries.
 image: https://picsum.photos/800/250?random=1
-tags: ['front-end', 'css', 'Javascript']
+tags: ['Media queries']
 published: '01/10/2021'
 ---
 ## CSS Media Queries:

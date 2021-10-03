@@ -2,7 +2,7 @@
 title: An introduction to PostCSS
 description: Nowadays, most front-end developer have worked with some preprocessors such as SASS, LESS, Stylus... which are more and more useful and increasingly indispensable tools when working with CSS.
 image: https://picsum.photos/800/250?random=4
-tags: ['front-end', 'css', 'postcss']
+tags: ['postcss']
 published: '02/10/2021'
 ---
 Think if we go back to writing the pure CSS, without variables, mixins or nested then the work will be heavy and boring.

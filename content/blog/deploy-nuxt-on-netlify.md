@@ -2,7 +2,7 @@
 title: How to deploy Nuxt on Netlify
 description: Deploying to Netlify is a option for getting a statically generated Nuxt.js site online quickly.
 image: https://picsum.photos/800/250?random=2
-tags: ['front-end', 'css', 'Netlify', 'Nuxt']
+tags: ['Netlify', 'Nuxt']
 published: '01/10/2021'
 ---
 First of all, you need to config your `nuxt.config.js` file with:

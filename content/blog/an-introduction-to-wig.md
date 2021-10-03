@@ -2,7 +2,7 @@
 title: An introduction to Twig
 description: Twig, the flexible, fast, and secure template engine. Twig is more concise, readable and secure than using PHP for your templates.
 image: https://picsum.photos/800/250?random=5
-tags: ['front-end', 'css', 'twig']
+tags: ['twig']
 published: '01/10/2021'
 ---
 ## What is Twig?

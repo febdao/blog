@@ -2,7 +2,7 @@
 title: Styling ordered list numbers
 description: Now, with model web design, a numbered list is not just a plain figure. It can be a different font, size, position, colour, background and whatever.
 image: https://picsum.photos/800/250?random=6
-tags: ['front-end', 'css', 'ordered']
+tags: ['ordered']
 published: '02/10/2021'
 ---
 If you want to number items in order, you can use the `<ol>` (ordered list) tag. But it is kind of hard to style those list numbers in CSS. There is an easier way to create a number styled list of item using the :before pseudo element along with counter properties.
