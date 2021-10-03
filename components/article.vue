@@ -19,8 +19,32 @@
           </div>
         </div>
         <div class="article-display transform transition-transform duration-300 z-10 w-11/12 bg-gray-900 -mt-10 shadow-lg p-5 rounded-lg overflow-hidden text-gray-200 group-hover:scale-105">
+          <div class="tags flex flex-wrap">
+            <div v-for="tag of doc.tags" :key="tag" class="
+              bg-gray-700
+              text-sm
+              font-medium
+              mr-2
+              mb-1
+              rounded-full
+              py-0
+              px-2
+            ">
+              {{ tag }}
+            </div>
+          </div>
           <div class="title-post text-lg font-bold mt-2">
             {{ doc.title }}
+          </div>
+          <div class="
+            text-light-secondary
+            dark:text-dark-secondary
+            flex
+            items-center
+            mb-3
+            text-xs
+          ">
+            {{ doc.published }}
           </div>
           <div class="summary-post text-sm text-justify">
             {{ doc.description }}

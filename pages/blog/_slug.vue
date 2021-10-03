@@ -1,6 +1,26 @@
 <template>
   <article class="pose max-w-screen-lg mx-auto">
     <h1 class="page-title font-extrabold">{{ doc.title }}</h1>
+    <div class="
+      text-light-secondary
+      dark:text-dark-secondary
+      flex
+      items-center
+      my-3
+      ">
+      <span>{{ doc.published }} · by Feb Dao</span>
+        <div class="responsive-image-container overflow-hidden inline-block 
+        w-8
+        h-8
+        mx-2
+        rounded-full
+        border-2 border-light-accent
+        dark:border-dark-accent
+        ">
+          <img src="/images/feb.jpg" alt="Profile picture of Marc Backes (very handsome)" class="object-cover h-full responsive-image-placeholder">
+          <img alt="Profile picture of Feb Dao(very handsome)" class="object-cover h-full responsive-image-real" style="opacity: 1;" >
+        </div>
+    </div>
     <p class="blog__desc text-xl mb-10">{{ doc.description }}</p>
     <div class="responsive-image-container overflow-hidden inline-block w-full max-h-screen-1/3 shadow-md rounded-lg mb-4">
       <img alt="Bug, Error, Defect, Failure Explained" class="object-cover w-full h-auto responsive-image-real" style="opacity: 1;" :src="doc.image">
