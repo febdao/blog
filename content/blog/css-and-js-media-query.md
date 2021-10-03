@@ -1,8 +1,9 @@
 ---
 title: CSS and Javascript media queries
-desc: The responsive display is an important thing in web design, it can't be done without using media queries.
-img: https://picsum.photos/800/250?random=1
-tags: front-end, css
+description: The responsive display is an important thing in web design, it can't be done without using media queries.
+image: https://picsum.photos/800/250?random=1
+tags: ['front-end', 'css', 'Javascript']
+published: '01/10/2021'
 ---
 ## CSS Media Queries:
 CSS media queries are a core in the responsive design, the @media rule is used in media queries allows the front-end developer can apply different styles to different media types/devices.

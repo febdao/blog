@@ -1,8 +1,9 @@
 ---
 title: Create a Style Guide with Pattern Lab.
-desc: Following the series on Web Style Guide, today I will introduce to you a very useful tool to create Style Guide - Pattern Lab.
-img: https://picsum.photos/800/250?random=3
-tags: front-end, css, styleguide, pattern-lab
+description: Following the series on Web Style Guide, today I will introduce to you a very useful tool to create Style Guide - Pattern Lab.
+image: https://picsum.photos/800/250?random=3
+tags: ['front-end', 'css', 'styleguide', 'pattern-lab']
+published: '02/10/2021'
 ---
 
 Pattern Lab is a great tool for creating Style Guides, you can easily set up and get started on creating your own style guides with just a few simple commands.

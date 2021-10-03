@@ -1,8 +1,9 @@
 ---
 title: Why should we use GovCMS theme?
-desc: Now, with model web design, a numbered list is not just a plain figure. It can be a different font, size, position, colour, background and whatever.
-img: https://picsum.photos/800/250?random=6
-tags: front-end, css, GovCMS, Drupal
+description: Now, with model web design, a numbered list is not just a plain figure. It can be a different font, size, position, colour, background and whatever.
+image: https://picsum.photos/800/250?random=7
+tags: ['front-end', 'css', 'GovCMS', 'Drupal']
+published: '03/10/2021'
 ---
 
 ## Full Support GovCMS

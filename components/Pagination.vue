@@ -1,7 +1,7 @@
 <template>
   <div class="grid gap-4 grid-cols-4">
     <div v-if="currentPage === 1" :class="disabledStyle">
-      <SingleBack />
+      <DoubleBack />
       <span class="hidden sm:inline">First</span>
     </div>
 
