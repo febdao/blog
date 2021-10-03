@@ -10,5 +10,5 @@ export default {
   githubURL: 'https://github.com/febdao',
   siteTitle: 'I\'m Feb, I love web development and photography',
   siteDesc: 'Welcome to my blog. It is about a web front-end developer base on Caberra Australia',
-  mainImage: '/images/feb.jpg',
+  mainImage: 'https://imfeb.me/images/feb.jpg',
 };
