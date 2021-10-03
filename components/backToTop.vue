@@ -1,16 +1,18 @@
 <template>
   <transition name="back-to-top-fade">
     <div 
-      class="vue-back-to-top fixed bottom-10 right-10"
+      class="vue-back-to-top fixed bottom-10 right-2 md:right-10"
       v-show="visible" 
       @click="backToTop">
-      <slot>
-        <div class="default">
-          <span>
-            {{ text }}
-          </span>
-        </div>
-      </slot>
+      <span class="flex flex-col text-center justify-center cursor-pointer">
+        <lord-icon
+          src="https://cdn.lordicon.com/hpxruznz.json"
+          trigger="loop-on-hover"
+          colors="primary:#ffbf24,secondary:#08a88a"
+          style="width:50px;height:50px">
+        </lord-icon>
+        <span class="text-xs -mt-2 text-yellow-500 left-3 bg-gray-600 bg-opacity-60">Top</span>
+      </span>
     </div>
   </transition>
 </template>

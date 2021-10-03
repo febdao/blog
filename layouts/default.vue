@@ -5,17 +5,7 @@
       <Nuxt />
     </div>
     <Footer />
-    <BackToTop text="Back to top" visibleoffset="200">
-      <span class="flex flex-col text-center justify-center cursor-pointer">
-        <lord-icon
-          src="https://cdn.lordicon.com/hpxruznz.json"
-          trigger="loop-on-hover"
-          colors="primary:#ffbf24,secondary:#08a88a"
-          style="width:50px;height:50px">
-        </lord-icon>
-        <span class="text-xs -mt-2 text-yellow-500 left-3">Top</span>
-      </span>
-    </BackToTop>
+    <BackToTop text="Back to top" visibleoffset="200" />
   </div>
 </template>
 
