@@ -1,5 +1,5 @@
 ---
-title: An introduction about PostCSS
+title: An introduction to PostCSS
 desc: Nowadays, most front-end developer have worked with some preprocessors such as SASS, LESS, Stylus... which are more and more useful and increasingly indispensable tools when working with CSS.
 img: https://picsum.photos/800/250?random=4
 tags: front-end, css, postcss
