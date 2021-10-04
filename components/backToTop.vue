@@ -9,7 +9,7 @@
           src="https://cdn.lordicon.com/hpxruznz.json"
           trigger="loop-on-hover"
           colors="primary:#ffbf24,secondary:#08a88a"
-          style="width:50px;height:50px">
+          style="width:25px;height:25px">
         </lord-icon>
         <span class="text-xs -mt-2 text-yellow-500 left-3 bg-gray-600 bg-opacity-60">Top</span>
       </span>
