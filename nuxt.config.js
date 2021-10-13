@@ -34,6 +34,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -50,5 +51,15 @@ export default {
   
   generate: {
     fallback: true
+  },
+
+  googleAnalytics: {
+    id: 'G-6J1WPEX5MV'
+  },
+
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: 'G-6J1WPEX5MV'
+    }
   }
 }
