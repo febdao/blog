@@ -24,8 +24,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: ['@/plugins/gtag'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -33,8 +32,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -51,15 +49,5 @@ export default {
   
   generate: {
     fallback: true
-  },
-
-  googleAnalytics: {
-    id: 'G-6J1WPEX5MV'
-  },
-
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: 'G-6J1WPEX5MV'
-    }
   }
 }
