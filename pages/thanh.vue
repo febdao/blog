@@ -74,6 +74,9 @@ export default {
           text: 'Anh cả'
         },
         {
+          text: 'Melba'
+        },
+        {
           text: 'Em gái mưa'
         },
         {
@@ -111,6 +114,10 @@ export default {
         {
           text: 'Cơ trưởng',
           auth: 'Hòa Nguyễn'
+        },
+        {
+          text: 'To',
+          auth: 'Trang mèo (ko rõ cái gì to^^)'
         },
         {
           text: 'Xởi lởi',
