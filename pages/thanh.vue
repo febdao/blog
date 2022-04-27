@@ -1,9 +1,8 @@
 <template>
-  <div class="fixed inset-0 bg-gray-400 z-10 bg-center bg-cover bg-no-repeat h-screen" style="background-image: url('/images/thanhvu.jpg');">
-    <div class="absolute inset-0 z-9 min-h-screen bg-black opacity-60 ">
+  <div class="fixed inset-0 bg-gray-400 z-10 bg-center bg-cover bg-no-repeat h-screen overflow-scroll" style="background-image: url('/images/thanhvu.jpg');">
+    <div class="fixed inset-0 z-9 min-h-screen bg-black opacity-60 ">
     </div>
-    <div class="absolute w-full
-    h-screen
+    <div class="fixed
     bg-gradient-to-r
     from-pink-500
     via-red-500

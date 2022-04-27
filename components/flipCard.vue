@@ -1,11 +1,11 @@
 <template>
   <div class="">
-    <div class="card text-4xl md:text-6xl p-20" 
+    <div class="card w-full h-full text-4xl md:text-6xl relative" 
       :class="{ 'is-flipped': isFlipped }"
       @click="myToggle()">
-      <div class="card__face card__face--front px-8 py-4 overflow-hidden text-gray-900 items-center flex justify-items-center justify-center bg-white  shadow-lg rounded-lg easy-in-out font-z">
+      <div class="card__face absolute inset-0 card__face--front px-8 py-4 overflow-hidden text-gray-900 items-center flex justify-items-center justify-center bg-white  shadow-lg rounded-lg easy-in-out font-z">
           {{ convertText(card.text) }}</div>
-      <div class="card__face px-8 py-4 card__face--back overflow-hidde text-gray-900 items-center flex justify-items-center justify-cente bg-green-50  shadow-lg rounded-lg easy-in-out">
+      <div class="card__face p-10 md:p-20  card__face--back overflow-hidde text-gray-900 items-center flex justify-items-center justify-cente bg-green-50  shadow-lg rounded-lg easy-in-out">
         <div class="block w-full text-center">
           <div class="w-full text-2xl">{{ convertText(card.text) }}</div>
           <hr class="my-6" />
@@ -57,23 +57,11 @@ export default {
 </script>
 
 <style>
-  .card {
-    width: 100%;
-    height: 100%;
-    min-width: 200px;
-    min-height: 400px;
-    position: relative;
-  }
-
   .card__face {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
     backface-visibility: hidden;
     transition: transform 1s;
     transform-style: preserve-3d;
+    transform: rotateY( 0deg );
   }
 
   .card__face--back {
