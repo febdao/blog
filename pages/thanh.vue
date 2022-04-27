@@ -27,8 +27,8 @@
             to-yellow-500
             background-animate opacity-20 inset-0 z-0"></div>
             <div class="w-full px-10 md:px-24 z-10">
-                <h1 class="md:flex text-5xl font-bold text-left tracking-wide">Chúc mừng sinh nhật</h1>
-                <h2 class="md:flex text-7xl font-bold text-white text-left tracking-wide">Thành Vũ</h2>
+                <h1 class="md:flex text-3xl md:text-5xl font-bold text-left tracking-wide">Chúc mừng sinh nhật</h1>
+                <h2 class="md:flex text-4xl md:text-7xl font-bold text-white text-left tracking-wide">Thành Vũ</h2>
                 <p class="text-3xl my-4">
                   <button @click="showTime()" class="button bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 background-animate white inline-block w-250 opacity-100 lg:px-20 px-10 py-2">Let's play!!!</button>
                 </p>
@@ -117,7 +117,7 @@ export default {
         },
         {
           text: 'To',
-          auth: 'Trang mèo (ko rõ cái gì to^^)'
+          auth: 'Trang mèo (ko rõ cái gì to ^^)'
         },
         {
           text: 'Xởi lởi',
@@ -131,7 +131,10 @@ export default {
           text: 'Đẹp trai',
           auth: 'Văn Hải - Cũng ko quen nói dối. Nhưng mà thôi sn. Hêhhe'
         },
-        
+        {
+          text: 'Buồn cười',
+          auth: 'Quang 7'
+        }
       ],
       slickOptions: {
         arows: true,
