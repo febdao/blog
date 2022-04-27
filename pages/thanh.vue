@@ -23,7 +23,7 @@
     </div>
     <div v-else>
       <div v-if="isShow">
-        <div class="container mx-auto p-10 md:p-20">
+        <div class="container mx-auto">
           <div class="carousel-wrapper">
             <client-only>
               <slick :options="slickOptions">
