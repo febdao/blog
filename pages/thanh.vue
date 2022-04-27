@@ -134,6 +134,18 @@ export default {
         {
           text: 'Buồn cười',
           auth: 'Quang 7'
+        },
+        {
+          text: 'Popular',
+          auth: 'Một bạn nữ giấu tên'
+        },
+        {
+          text: 'Bụ bẫm',
+          auth: 'Một bạn nữ giấu tên'
+        },
+        {
+          text: 'Tốt bụng',
+          auth: 'Một bạn nữ giấu tên - cả nghĩa đen lẫn bóng'
         }
       ],
       slickOptions: {
