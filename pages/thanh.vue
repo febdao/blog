@@ -27,7 +27,8 @@
             to-yellow-500
             background-animate opacity-20 inset-0 z-0"></div>
             <div class="w-full px-10 md:px-24 z-10">
-                <h1 class="md:flex text-5xl font-bold text-left tracking-wide">Chúc mừng sinh nhật anh Thành Vũ</h1>
+                <h1 class="md:flex text-5xl font-bold text-left tracking-wide">Chúc mừng sinh nhật</h1>
+                <h2 class="md:flex text-7xl font-bold text-white text-left tracking-wide">Thành Vũ</h2>
                 <p class="text-3xl my-4">
                   <button @click="showTime()" class="button bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 background-animate white inline-block w-250 opacity-100 lg:px-20 px-10 py-2">Let's play!!!</button>
                 </p>
